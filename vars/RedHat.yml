@@ -5,14 +5,14 @@ __php_packages:
   - php-common
   - php-devel
   - php-fpm
-  - php-gd
-  - php-imap
+#  - php-gd
+#  - php-imap
   - php-ldap
   - php-mbstring
-  - php-opcache
+#  - php-opcache
   - php-pdo
   - php-pear
-  - php-pecl-apc
+#  - php-pecl-apc
   - php-xml
   - php-xmlrpc
 __php_webserver_daemon: "nginx"
