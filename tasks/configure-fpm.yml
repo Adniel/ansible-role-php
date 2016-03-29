@@ -18,8 +18,8 @@
     mode: 0755
 
 - name: Ensure the default pool exists.
-  copy:
-    src: www.conf
+  template:
+    src: www.conf.j2
     dest: "{{ php_fpm_pool_conf_path }}"
     owner: root
     group: root
